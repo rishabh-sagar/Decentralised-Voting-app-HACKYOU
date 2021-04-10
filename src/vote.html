@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VotingChain</title>
+   
+    <link rel="stylesheet" href="index.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">VotingChain</td>
+     
+            </tr>
+        </table>
+    </header>
+    
+   <div class="vote-window">
+  <div class="vote-window-header">
+    <div class="vote-window-title">Voting Panel</div>
+    
+  </div>
+  <div class="vote-window-body">
+    <div class="gui-window-awards">
+      <ul class="vote-tab-row vote-tab-row-even">
+       <ul id="candidatesResults2" class="vote-tab-row vote-tab-row-even">
+       </ul>
+      </ul>
+  <form onSubmit="App.castVote(); return false;">
+    <div class="form-group">
+      <label for="candidatesSelect">Select Candidate</label>
+      <select class="form-control" id="candidatesSelect">
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Vote</button>
+    <hr />
+  </form>
+</div>
+
+    
+</body>
+</html>
+
+
+<!-- <li class="vote-tab-star">1</li>
+<li class="vote-tab-title">Narendra Modi
+</li>
+ <li class="vote-tab-time"><button class="vote-tab-but-vote">vote</button></li> -->
