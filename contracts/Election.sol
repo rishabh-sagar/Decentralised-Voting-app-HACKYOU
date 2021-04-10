@@ -13,8 +13,10 @@ contract Election {
     // Store Candidates Count
     uint public candidatesCount;
     constructor () public {
-        addCandidate("Donald Trump");
         addCandidate("Narendra Modi");
+        addCandidate("Rahul Gandhi");
+        addCandidate("Arvind Kejriwal");
+        addCandidate("Mamta Banerjee");
     }
     function addCandidate (string memory _name) private {
         candidatesCount ++;
