@@ -56,7 +56,7 @@ App = {
           var name = candidate[1];
           var voteCount = candidate[2];
           // Render candidate Result
-          var candidateTemplate2 = "<li class='vote-tab-star'>" + id + "</li><li class='vote-tab-title'>" + name + "</li>"+  "</li><li class='vote-tab-title'>" + voteCount +votesuffix + "</li>"
+          var candidateTemplate2 = "<ul class='vote-tab-row vote-tab-row-even'><li class='vote-tab-star'>" + id + "</li><li class='vote-tab-title'>" + name + "</li>"+  "</li><li class='vote-tab-subtitle'>" + voteCount +votesuffix + "</li></ul>"
           candidatesResults2.append(candidateTemplate2);
           // Render candidate ballot option
           var candidateOption = "<option value='" + id + "' >" + name + "</ option>"
