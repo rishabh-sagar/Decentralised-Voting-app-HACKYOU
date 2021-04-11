@@ -42,7 +42,7 @@ v) Now clone the repo by using
   Open Ganache and Click on any key(icon) to select the private key. 
   Copy this private key and now open metamask go to import account and paste this private key.
   
-  **Step 4: Configure metamask with ganache**
+  **Step 4: Cast Your Vote**
     Now you can cast your vote and see the results as well
 
    
