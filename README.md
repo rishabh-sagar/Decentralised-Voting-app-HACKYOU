@@ -31,17 +31,18 @@ The next dependency is the  [Metamask extension for Google Chrome](https://chrom
 v) Now clone the repo by using
  `git clone https://github.com/rishabh-sagar/Decentralised-Voting-app-HACKYOU.git`
  
- ** Step 2: Run the **
+ **Step 2: Run the project **
 
  - Quick start the ganache
  - Now open terminal in the root of the cloned repo
  - Now run `$ truffle migrate --reset`
  - Now run `npm run dev`
  
-  ** Step 3: Configure metamask with ganache **
+  **Step 3: Configure metamask with ganache **
   Open Ganache and Click on any key(icon) to select the private key. 
   Copy this private key and now open metamask go to import account and paste this private key.
-    **Step 4: Configure metamask with ganache **
-     Now you can cast your vote and see the results as well
+  
+  **Step 4: Configure metamask with ganache **
+    Now you can cast your vote and see the results as well
 
    
